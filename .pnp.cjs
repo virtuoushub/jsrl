@@ -389,7 +389,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clone", "npm:2.1.2"],\
             ["dotenv", "npm:7.0.0"],\
             ["dotenv-expand", "npm:5.1.0"],\
-            ["json5", "npm:2.2.0"],\
+            ["json5", "npm:2.2.3"],\
             ["msgpackr", "npm:1.8.4"],\
             ["nullthrows", "npm:1.1.1"],\
             ["semver", "npm:5.7.1"]\
@@ -840,7 +840,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@parcel/source-map", "npm:2.1.1"],\
             ["@parcel/utils", "npm:2.8.3"],\
             ["browserslist", "npm:4.20.0"],\
-            ["json5", "npm:2.2.0"],\
+            ["json5", "npm:2.2.3"],\
             ["nullthrows", "npm:1.1.1"],\
             ["semver", "npm:5.7.1"]\
           ],\
@@ -946,7 +946,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@parcel/transformer-json", "npm:2.8.3"],\
             ["@parcel/plugin", "npm:2.8.3"],\
-            ["json5", "npm:2.2.0"]\
+            ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2162,14 +2162,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["json5", [\
-        ["npm:2.2.0", {\
-          "packageLocation": "./.yarn/cache/json5-npm-2.2.0-da49dc7cb5-e88fc5274b.zip/node_modules/json5/",\
-          "packageDependencies": [\
-            ["json5", "npm:2.2.0"],\
-            ["minimist", "npm:1.2.5"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.2.3", {\
           "packageLocation": "./.yarn/cache/json5-npm-2.2.3-9962c55073-2a7436a933.zip/node_modules/json5/",\
           "packageDependencies": [\
@@ -2376,15 +2368,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["minimatch", "npm:3.1.2"],\
             ["brace-expansion", "npm:1.1.11"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["minimist", [\
-        ["npm:1.2.5", {\
-          "packageLocation": "./.yarn/cache/minimist-npm-1.2.5-ced0e1f617-86706ce5b3.zip/node_modules/minimist/",\
-          "packageDependencies": [\
-            ["minimist", "npm:1.2.5"]\
           ],\
           "linkType": "HARD"\
         }]\
