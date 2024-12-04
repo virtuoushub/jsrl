@@ -62,5 +62,5 @@
     "@pixi/text": "^7.1.3",
     "pixi.js": "^7.0.4"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.8.7"
 }
