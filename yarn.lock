@@ -1942,19 +1942,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^22.7.7":
   version: 22.13.10
   resolution: "@types/node@npm:22.13.10"
   dependencies:
     undici-types: ~6.20.0
   checksum: 1cd6b899df728732c60c0defad63e26ca18d87a3b81bd75666fe9aed6cdf9e488433976b22ffcabfdeef9d351cf8ff94853b0686e6708ef62065482ccf5b0a6e
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.11.26":
-  version: 16.18.126
-  resolution: "@types/node@npm:16.18.126"
-  checksum: 86112e7499f8a4d1bb60696cab0bf464adf3c141fca4bc5451e8f3aba5736529b76d4b4396edb21e5d7c19592852f7d6cb81ee70074fd13bde2db2d0db720467
   languageName: node
   linkType: hard
 
@@ -3352,16 +3345,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^22.0.0":
-  version: 22.3.27
-  resolution: "electron@npm:22.3.27"
+"electron@npm:^35.0.0":
+  version: 35.0.3
+  resolution: "electron@npm:35.0.3"
   dependencies:
     "@electron/get": ^2.0.0
-    "@types/node": ^16.11.26
+    "@types/node": ^22.7.7
     extract-zip: ^2.0.1
   bin:
     electron: cli.js
-  checksum: b9c5ad263c45065b42f612931de95e0e29f9e735d4f47f51298700788492e6a107d72f4982d421afc71f25364660579d5d15061f8198211ac9d507372ca8bbe1
+  checksum: 90f4b6cb8b664c28b679f4a07523baf639c1213692ecae12423dff533e18390571303e2d74e122bbe5f1ecdfe66623e5523daa85bd3bd8c84f2ec9d81d82d50b
   languageName: node
   linkType: hard
 
@@ -4827,7 +4820,7 @@ __metadata:
     cross-env: ^7.0.3
     css-loader: ^6.7.2
     dotenv: ^16.0.3
-    electron: ^22.0.0
+    electron: ^35.0.0
     electron-packager: ^17.1.1
     electron-reload: ^1.5.0
     html-webpack-plugin: ^5.5.0
